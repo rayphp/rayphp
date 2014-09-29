@@ -1,0 +1,51 @@
+gettype($var):得到变量的类型，返回变量的类型；
+unset($var):销毁指定变量；
+var_dump:打印变量的详细信息；
+htmlentities
+htmlspeciachars($str[,$quotes=ENT_COMPACT]):将指定字符串中的特殊字符转换成HTML Entities;
+	ENT_COMPACT:只处理双引号不处理单引号；
+	ENT_QUOTES:处理单引号和双引号；
+	ENT_NOQUOTES:不处理单引号和双引号；
+get_defined-constrants:返回已定义的变量；
+md5($str):计算字符串的MD5的散列值，返回加密之后的32位的字符串，单向加密，不可逆；
+sha1($str):计算字符串的SHA1的散列值，返回加密之后的40位的字符串，单向加密，不可逆；
+ord($char):返回字符的ASCII码值；
+chr($ASCII):根据ASCII码值得到相应的字符；
+mt_rand($min,$max):产生更好的随机数；
+strlen($string)：得到字符串的长度；
+str_shuffle($str):随机打乱一个字符串；
+strrev($str):反转字符串；
+
+在字符串中查找指定字符，返回其位置;
+strpos($string,$search):在指定字符串中搜索(如果找到，返回它首次出现的位置,返回的数值;未找到，返回false)；
+	stripos($string,$search):忽略大小写的去查找；
+	strrpos($string,$search):最后一次出现的位置；
+	strripos($string,$search):忽略大小写的去查找最后一次出现的位置；
+
+字符大小写转换
+strtolower():将字符串转化为小写；
+strtoupper():将字符串转换为大写；
+ucwords():将字符串中的每个单词的首字母转换为大写；
+ucfirst():将字符串的首字母转换为大写；
+
+返回字符串字串
+substr($string,$start,$length):返回的是字符串，如果string的长度小于或等于start,将返回FALSE；
+
+字符串的替换
+str_replace($search,$place,$subject):子字符串替换；
+str_ireplace($search,$place,$subject):忽略大小写的替换；
+substr_replace($string,$replacement,int $start):替换字符串的子串；
+
+
+
+
+
+
+
+
+
+
+
+
+
+
